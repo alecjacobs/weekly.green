@@ -1,0 +1,53 @@
+<script type="text/javascript">
+  function agg() {
+    document.getElementById("extraParams").value ="callback=https://www.google.com";
+  }
+
+  function iav() {
+    document.getElementById("extraParams").value ="dataset=%5B%20%20%0A%20%20%20%7B%20%20%0A%20%20%20%20%20%20%22name%22%3A%22ACCT_PROFILE%22%2C%0A%20%20%20%20%20%20%22attribute%22%3A%5B%0A%20%20%20%20%20%20%20%20%20%7B%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%22name%22%3A%22BANK_TRANSFER_CODE%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22container%22%3A%5B%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22bank%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%5D%0A%20%20%20%20%20%20%20%20%20%7D%2C%0A%20%20%20%20%20%20%20%20%20%7B%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%22name%22%3A%22HOLDER_NAME%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22container%22%3A%5B%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22bank%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%5D%0A%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%5D%0A%20%20%20%7D%0A%5D%20%20&callback=https://www.google.com";
+  }
+
+  function aggWithiav() {
+    document.getElementById("extraParams").value ="dataset=%20%5B%7B%0A%20%09%09%22name%22%3A%20%22ACCT_PROFILE%22%2C%0A%20%09%09%22attribute%22%3A%20%5B%0A%20%09%09%09%7B%0A%20%09%09%09%09%22name%22%3A%20%22BANK_TRANSFER_CODE%22%2C%0A%20%09%09%09%09%22container%22%3A%20%5B%0A%20%09%09%09%09%09%22bank%22%0A%20%09%09%09%09%5D%0A%20%09%09%09%7D%2C%0A%20%09%09%09%7B%0A%20%09%09%09%09%22name%22%3A%20%22HOLDER_NAME%22%2C%0A%20%09%09%09%09%22container%22%3A%20%5B%0A%20%09%09%09%09%09%22bank%22%0A%20%09%09%09%09%5D%0A%20%09%09%09%7D%0A%20%09%09%5D%0A%20%09%7D%2C%0A%20%09%7B%0A%20%09%09%22name%22%3A%20%22BASIC_AGG_DATA%22%2C%0A%20%09%09%22attribute%22%3A%20%5B%7B%0A%20%09%09%09%09%22name%22%3A%20%22ACCOUNT_DETAILS%22%2C%0A%20%09%09%09%09%22container%22%3A%20%5B%0A%20%09%09%09%09%09%22insurance%22%2C%0A%20%09%09%09%09%09%22reward%22%2C%0A%20%09%09%09%09%09%22bank%22%2C%0A%20%09%09%09%09%09%22loan%22%2C%0A%20%09%09%09%09%09%22investment%22%2C%0A%20%09%09%09%09%09%22creditCard%22%0A%20%09%09%09%09%5D%0A%20%09%09%09%7D%2C%0A%20%09%09%09%7B%0A%20%09%09%09%09%22name%22%3A%20%22HOLDINGS%22%2C%0A%20%09%09%09%09%22container%22%3A%20%5B%0A%20%09%09%09%09%09%22insurance%22%2C%0A%20%09%09%09%09%09%22investment%22%0A%20%09%09%09%09%5D%0A%20%09%09%09%7D%2C%0A%20%09%09%09%7B%0A%20%09%09%09%09%22name%22%3A%20%22STATEMENTS%22%2C%0A%20%09%09%09%09%22container%22%3A%20%5B%0A%20%09%09%09%09%09%22insurance%22%2C%0A%20%09%09%09%09%09%22loan%22%2C%0A%20%09%09%09%09%09%22creditCard%22%0A%20%09%09%09%09%5D%0A%20%09%09%09%7D%2C%0A%20%09%09%09%7B%0A%20%09%09%09%09%22name%22%3A%20%22TRANSACTIONS%22%2C%0A%20%09%09%09%09%22container%22%3A%20%5B%0A%20%09%09%09%09%09%22insurance%22%2C%0A%20%09%09%09%09%09%22bank%22%2C%0A%20%09%09%09%09%09%22loan%22%2C%0A%20%09%09%09%09%09%22investment%22%2C%0A%20%09%09%09%09%09%22creditCard%22%0A%20%09%09%09%09%5D%0A%20%09%09%09%7D%0A%20%09%09%5D%0A%20%09%7D%0A%20%5D&callback=https://www.google.com";
+  }
+</script>
+
+<h1>Yodlee</h1>
+<form target="_blank" id="myform" name="myform" action="https://node.developer.yodlee.com/authenticate/restserver/" method="POST">
+  <input style="display:none" type="text" name="app" value="10003600"/>
+  <input style="display:none" id="rsessionSubmit" type="text" name="rsession" value="<%= @state[:user].session[:user_session] %>"/>
+  <input style="display:none" id="tokenSubmit" type="text" name="token" value="<%= @state[:user].access_tokens(10003600).first.value %>"/>
+  <input style="display:none" type="text" name="redirectReq" value="true"/>
+  <input style="display:none" type="text" id="extraParams" name="extraParams" value=""/>
+  <br>
+<!--    <button id="btnSubmit" onclick="agg()" type="submit" name="Fastlink 3.0 Aggregation">Aggregation</button>-->
+<!--    <button id="btnSubmit" onclick="iav()" type="submit" name="Fastlink 3.0 Account Profile (IAV)">Account Profile(IAV)</button>-->
+  <button id="btnSubmit" onclick="aggWithiav()" type="submit" name="Fastlink 3.0 Aggregation + Account Profile">Link Account with Yodlee FastLink</button>
+</form>
+
+<p>
+  Username: <i><%= @state[:username] %></i>
+</p>
+
+<h2>Accounts</h2>
+
+<p>
+  <% @accounts.each do |account| %>
+    <h3>
+      <%= account.account_name %>
+    </h3>
+
+    <pre><%= JSON.pretty_generate(account.as_json) %></pre>
+
+    <h3>
+      Transactions
+    </h3>
+    <ul>
+      <% account.transactions.all.each do |transaction| %>
+        <li style="background-color: #ddd; margin-bottom: 16px">
+          <pre><%= JSON.pretty_generate(transaction.as_json) %></pre>
+        </li>
+      <% end %>
+    </ul>
+  <% end %>
+</p>
