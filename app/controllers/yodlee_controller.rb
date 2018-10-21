@@ -1,4 +1,6 @@
 class YodleeController < ApplicationController
+  before_action :set_cors_headers
+
   def index
     state = yodlee_state
     # account = Yodlee::Account.find(state[:user_session], "creditCard", 11895752)
@@ -38,4 +40,10 @@ class YodleeController < ApplicationController
 
     render plain: JSON.pretty_generate(json), content_type: :json
   end
+
+  private
+
+    def set_cors_headers
+      response.set_header "Access-Control-Allow-Origin", request.headers["Origin"] || "*"
+    end
 end
