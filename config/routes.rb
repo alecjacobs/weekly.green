@@ -3,8 +3,8 @@ Rails.application.routes.draw do
     get 'yodlee', to: 'debug#yodlee'
   end
 
-  get '/yodlee', to: 'yodlee#index'
-  get '/yodlee_mock', to: 'yodlee#mock'
+  match '/yodlee', to: 'yodlee#index', via: [:get, :options]
+  match '/yodlee_mock', to: 'yodlee#mock', via: [:get, :options]
 
   root to: 'root#index'
 end
