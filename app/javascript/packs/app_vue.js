@@ -1,50 +1,20 @@
 /* eslint no-console: 0 */
 
 import Vue from 'vue'
-import Vuex from 'vuex'
-import VueRouter from 'vue-router'
-
+import Vuetify from 'vuetify'
 import App from '../app.vue'
+import store from '../store'
+import router from '../router'
 
 document.addEventListener('DOMContentLoaded', () => {
   const el = document.body.appendChild(document.createElement('hello'));
 
-  Vue.use(Vuex)
-  Vue.use(VueRouter)
+  Vue.use(Vuetify, { theme: { primary: '#333' }})
 
-  const app = new Vue({
+  window.app = new Vue({
+    router,
+    store,
     el,
     render: h => h(App)
   });
-
-  console.log(app);
 });
-
-
-// The above code uses Vue without the compiler, which means you cannot
-// use Vue to target elements in your existing html templates. You would
-// need to always use single file components.
-// To be able to target elements in your existing html/erb templates,
-// comment out the above code and uncomment the below
-// Add <%= javascript_pack_tag 'hello_vue' %> to your layout
-// Then add this markup to your html template:
-//
-// <div id='hello'>
-//   {{message}}
-//   <app></app>
-// </div>
-
-
-// import Vue from 'vue/dist/vue.esm'
-// import App from '../app.vue'
-//
-// document.addEventListener('DOMContentLoaded', () => {
-//   const app = new Vue({
-//     el: '#hello',
-//     data: {
-//       message: "Can you say hello?"
-//     },
-//     components: { App }
-//   })
-// })
-//
