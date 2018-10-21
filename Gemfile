@@ -19,6 +19,7 @@ gem 'webpacker'
 # gem 'mini_racer', platforms: :ruby
 
 gem 'dotenv'
+gem 'distribution'
 gem 'yodlee', github: 'AquilaLoans/yodlee-ruby', require: 'yodlee'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder

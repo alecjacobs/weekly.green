@@ -1,0 +1,154 @@
+<site>
+  <bankAccount nickName="Interest Checking-2345" acctType="checking" accountClassification="personal">
+    <accountName>Dag Checking Account</accountName>
+    <fullAccountNumber>123445682345</fullAccountNumber>
+    <accountNumber>2345</accountNumber>
+    <routingNumber>xxxxxxxxx</routingNumber>
+    <accountHolder>Robin</accountHolder>
+    <balance balType="availableBalance">
+      <curAmt curCode="USD">1500.00</curAmt>
+    </balance>
+    <balance balType="currentBalance">
+      <curAmt curCode="USD">1600.00</curAmt>
+    </balance>
+    <balance balType="overdraftProtection">
+      <curAmt curCode="USD">15750.00</curAmt>
+    </balance>
+    <asOf localFormat="yyyy-MM-dd">2018-10-20T00:00:00</asOf>
+    <interestRate>0.01000</interestRate>
+    <accountProfile>
+      <address>
+        <addressType>HOME</addressType>
+        <address>
+          <address1>Address1</address1>
+          <address2>Address2</address2>
+          <address3>Address3</address3>
+          <city>Redwood City</city>
+          <state>CA</state>
+          <country>America</country>
+          <zip>94065</zip>
+        </address>
+      </address>
+      <fax>AccountFax1</fax>
+      <company>Companyname</company>
+      <phone>12345678</phone>
+      <homePhone>12345678</homePhone>
+      <workPhone>12345678</workPhone>
+      <mobilePhone>12345678</mobilePhone>
+      <email>email@gmail.com</email>
+      <secondaryEmail>SecondaryEmail1@gmail.com</secondaryEmail>
+      <personalEmail>PersonalEmail1@gmail.com</personalEmail>
+      <othersEmail>OthersEmail1@gmail.com</othersEmail>
+      <workEmail>workEmail1@gmail.com</workEmail>
+      <primaryEmail>PrimaryEmail1@gmail.com</primaryEmail>
+      <company>AccountCompany1</company>
+      <birthDateTime localFormat="MM/DD/YYYY">2078-04-25T00:00:00</birthDateTime>
+      <consumerIdentifier consumerIdentifierType="AADHAR">7576565567</consumerIdentifier>
+      <consumerIdentifier1 consumerIdentifierType="NRIC">454765876876</consumerIdentifier1>
+    </accountProfile>
+    <individualInformation accountHolderType="Primary">
+      <name>
+        <lastName>Andrews</lastName>
+        <middleName>George</middleName>
+        <firstName>Robin</firstName>
+      </name>
+      <fullName>Robin George Andrews</fullName>
+      <birthDateTime localFormat="MM/DD/YYYY">2012-01-01T00:00:00</birthDateTime>
+      <consumerIdentifier consumerIdentifierType="AADHAR">4575476vhg</consumerIdentifier>
+      <consumerIdentifier1 consumerIdentifierType="NRIC">64576587687</consumerIdentifier1>
+    </individualInformation>
+    <transactionList>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>WAL-MART #3229</description>
+        <transDate localFormat="yyyy-MM-dd">2018-10-19T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-10-20T00:00:00</postDate>
+        <amount curCode="USD">200.00</amount>
+        <transactionRunningBalance curCode="USD">1500.00</transactionRunningBalance>
+      </transaction>
+      <transaction transactionStatus="pending" baseType="debit">
+        <description>AUTOZONE 1299</description>
+        <transDate localFormat="yyyy-MM-dd">2018-10-20T00:00:00</transDate>
+        <amount curCode="USD">100.00</amount>
+        <transactionRunningBalance curCode="USD">1700.00</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="credit" transactionStatus="posted" type="deposit">
+        <description>ACH Electronic CreditPERSONAL CAPITAL DEPOSIT</description>
+        <checkNumber>777</checkNumber>
+        <transDate localFormat="yyyy-MM-dd">2018-09-2300:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-24T00:00:00</postDate>
+        <amount curCode="USD">350.00</amount>
+        <transactionRunningBalance curCode="USD">1800.00</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>Debit Card Purchase XX/XX XX:XXp #XXXXUW HUSKYTEAMBKSTORE XXX-XXX-XXXX WA XXXXX</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-16T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-16T00:00:00</postDate>
+        <amount curCode="USD">150.00</amount>
+        <transactionRunningBalance curCode="USD">1450.00</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>Cash Withdrawal XX/XX XX:XXp #XXXXTeller</description>
+        <transDate localFormat="yyyy-MM-dd">2018-07-10T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-07-10T00:00:00</postDate>
+        <amount curCode="USD">300.00</amount>
+        <transactionRunningBalance curCode="USD">1600.00</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>Debit Card Purchase XX/XX XX:XXp #XXXXFANATICS.COM XXXXXXXXXX FL XXXXX</description>
+        <transDate localFormat="yyyy-MM-dd">2018-06-28T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-06-28T00:00:00</postDate>
+        <amount curCode="USD">125.00</amount>
+        <transactionRunningBalance curCode="USD">1900.00</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="credit" transactionStatus="posted" type="interestPayment">
+        <description>Interest Payment</description>
+        <transDate localFormat="yyyy-MM-dd">2018-05-24T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-05-24T00:00:00</postDate>
+        <amount curCode="USD">25.00</amount>
+        <transactionRunningBalance curCode="USD">2025.00</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="credit" transactionStatus="posted" type="deposit">
+        <description>ACH Electronic CreditPERSONAL CAPITAL DEPOSIT</description>
+        <transDate localFormat="yyyy-MM-dd">2018-04-15T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-04-15T00:00:00</postDate>
+        <amount curCode="USD">750.00</amount>
+        <transactionRunningBalance curCode="USD">2000.00</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>Cash Withdrawal XX/XX XX:XXp #XXXXTeller</description>
+        <transDate localFormat="yyyy-MM-dd">2018-03-10T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-03-10T00:00:00</postDate>
+        <amount curCode="USD">150.00</amount>
+        <transactionRunningBalance curCode="USD">1250.00</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>Debit Card Purchase XX/XX XX:XXp #XXXXFANATICS.COM XXXXXXXXXX FL XXXXX</description>
+        <transDate localFormat="yyyy-MM-dd">2018-02-28T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-02-28T00:00:00</postDate>
+        <amount curCode="USD">200.00</amount>
+        <transactionRunningBalance curCode="USD">1400.00</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="credit" transactionStatus="posted" type="interestPayment">
+        <description>Interest Payment</description>
+        <transDate localFormat="yyyy-MM-dd">2018-01-24T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-01-24T00:00:00</postDate>
+        <amount curCode="USD">100.00</amount>
+        <transactionRunningBalance curCode="USD">1600.00</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="credit" transactionStatus="posted" type="deposit">
+        <description>ACH Electronic CreditPERSONAL CAPITAL DEPOSIT</description>
+        <transDate localFormat="yyyy-MM-dd">2017-12-15T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2017-12-15T00:00:00</postDate>
+        <amount curCode="USD">750.00</amount>
+        <transactionRunningBalance curCode="USD">1500.00</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>Debit Card Purchase XX/XX XX:XXp #XXXXFANATICS.COM XXXXXXXXXX FL XXXXX</description>
+        <transDate localFormat="yyyy-MM-dd">2017-11-08T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2017-11-08T00:00:00</postDate>
+        <amount curCode="USD">200.00</amount>
+        <transactionRunningBalance curCode="USD">1700.00</transactionRunningBalance>
+      </transaction>
+    </transactionList>
+  </bankAccount>
+</site>

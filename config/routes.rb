@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   end
 
   get '/yodlee', to: 'yodlee#index'
+  get '/yodlee_mock', to: 'yodlee#mock'
 
   root to: 'root#index'
 end

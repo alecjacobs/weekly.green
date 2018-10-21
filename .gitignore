@@ -14,7 +14,6 @@
 !/tmp/.keep
 
 .env
-data/
 
 # Ignore uploaded files in development
 /storage/*

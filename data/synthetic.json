@@ -1,0 +1,835 @@
+[
+  {
+    "desc": "UBER",
+    "amt": 453.65,
+    "bal": 1500,
+    "date": "2018-10-19 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "TEXACO 3974",
+    "amt": -169.02,
+    "bal": 1046.35,
+    "date": "2018-10-19 04:02:56 UTC",
+    "deductible": true
+  },
+  {
+    "desc": "JACK IN THE BOX 3836",
+    "amt": -5.61,
+    "bal": 1215.37,
+    "date": "2018-10-19 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "BUSY BUGGY AUTO REPAIR",
+    "amt": -325.87,
+    "bal": 1220.9799999999998,
+    "date": "2018-10-19 04:02:56 UTC",
+    "deductible": true
+  },
+  {
+    "desc": "LIBERTY MUTUAL",
+    "amt": -200.0,
+    "bal": 1546.85,
+    "date": "2018-10-19 04:02:56 UTC",
+    "deductible": true
+  },
+  {
+    "desc": "RENT CHECK",
+    "amt": 900.0,
+    "bal": 1746.85,
+    "date": "2018-10-19 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "WHATABURGER 743    Q26",
+    "amt": -8.85,
+    "bal": 846.8499999999999,
+    "date": "2018-10-18 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "EINSTEIN BROS BAGELS2745",
+    "amt": -6.59,
+    "bal": 855.6999999999999,
+    "date": "2018-10-17 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "CORNER STORE 0723",
+    "amt": -42.7,
+    "bal": 862.29,
+    "date": "2018-10-16 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "PET SUPPLIES PLUS #700",
+    "amt": -18.38,
+    "bal": 904.99,
+    "date": "2018-10-15 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "GOOGLE *CLOUD_011FE8-F",
+    "amt": -10.0,
+    "bal": 923.37,
+    "date": "2018-10-14 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "HAYS CITY STORE",
+    "amt": -75.06,
+    "bal": 933.37,
+    "date": "2018-10-13 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "TARGET        00017640",
+    "amt": -19.66,
+    "bal": 1008.4300000000001,
+    "date": "2018-10-12 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "EATZI'S MARKET &amp; BAKERY",
+    "amt": -30.62,
+    "bal": 1028.0900000000001,
+    "date": "2018-10-11 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "UBER",
+    "amt": 372.68,
+    "bal": 1058.71,
+    "date": "2018-10-10 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "CHEVRON 8535",
+    "amt": -187.07,
+    "bal": 686.03,
+    "date": "2018-10-10 04:02:56 UTC",
+    "deductible": true
+  },
+  {
+    "desc": "EATZI'S MARKET &amp; BAKERY",
+    "amt": -11.9,
+    "bal": 873.0999999999999,
+    "date": "2018-10-10 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "TARGET        00017640",
+    "amt": -17.65,
+    "bal": 884.9999999999999,
+    "date": "2018-10-09 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "EATZI'S MARKET &amp; BAKERY",
+    "amt": -20.31,
+    "bal": 902.6499999999999,
+    "date": "2018-10-08 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "ALON 7-ELEVEN 4053",
+    "amt": -11.29,
+    "bal": 922.9599999999998,
+    "date": "2018-10-07 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "GOOGLE *CLOUD_011FE8-F",
+    "amt": -10.0,
+    "bal": 934.2499999999998,
+    "date": "2018-10-06 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "KROGER 0540",
+    "amt": -16.76,
+    "bal": 944.2499999999998,
+    "date": "2018-10-05 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "EATZI'S MARKET &amp; BAKERY",
+    "amt": -18.15,
+    "bal": 961.0099999999998,
+    "date": "2018-10-04 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "JACK IN THE BOX 3836",
+    "amt": -3.24,
+    "bal": 979.1599999999997,
+    "date": "2018-10-03 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "AIRBNB * HMMAEQNHJ3",
+    "amt": -349.99,
+    "bal": 982.3999999999997,
+    "date": "2018-10-02 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "UBER",
+    "amt": 401.14,
+    "bal": 1332.3899999999999,
+    "date": "2018-10-01 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "EXXONMOBIL 202",
+    "amt": -124.57,
+    "bal": 931.2499999999999,
+    "date": "2018-10-01 04:02:56 UTC",
+    "deductible": true
+  },
+  {
+    "desc": "PET SUPPLIES PLUS #700",
+    "amt": -19.46,
+    "bal": 1055.82,
+    "date": "2018-10-01 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "WAFFLE HOUSE 0815",
+    "amt": -11.77,
+    "bal": 1075.28,
+    "date": "2018-09-30 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "WHOLE PETS MARKET  SSS",
+    "amt": -20.54,
+    "bal": 1087.05,
+    "date": "2018-09-29 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "CULWELL GROOMING ROOM",
+    "amt": -33.0,
+    "bal": 1107.59,
+    "date": "2018-09-28 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "LEVELUP*STEAKNSHAKE296",
+    "amt": -6.58,
+    "bal": 1140.59,
+    "date": "2018-09-27 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "KROGER 0540",
+    "amt": -16.76,
+    "bal": 1147.1699999999998,
+    "date": "2018-09-26 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "MURPHY6548ATWALMART",
+    "amt": -58.75,
+    "bal": 1163.9299999999998,
+    "date": "2018-09-25 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "MURPHY6548ATWALMART",
+    "amt": -58.75,
+    "bal": 1222.6799999999998,
+    "date": "2018-09-24 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "HAYS CITY STORE",
+    "amt": -75.06,
+    "bal": 1281.4299999999998,
+    "date": "2018-09-23 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "UBER",
+    "amt": 459.2,
+    "bal": 1356.4899999999998,
+    "date": "2018-09-22 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "TEXACO 2874",
+    "amt": -111.4,
+    "bal": 897.2899999999997,
+    "date": "2018-09-22 04:02:56 UTC",
+    "deductible": true
+  },
+  {
+    "desc": "HEB  #611",
+    "amt": -5.3,
+    "bal": 1008.6899999999997,
+    "date": "2018-09-22 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "H-E-B #611",
+    "amt": -29.77,
+    "bal": 1013.9899999999997,
+    "date": "2018-09-21 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "GITHUB.COM",
+    "amt": -7.0,
+    "bal": 1043.7599999999998,
+    "date": "2018-09-20 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "WHATABURGER 564    Q26",
+    "amt": -6.43,
+    "bal": 1050.7599999999998,
+    "date": "2018-09-19 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "COSTCO AUTO",
+    "amt": -309.39,
+    "bal": 1057.1899999999998,
+    "date": "2018-09-19 04:02:56 UTC",
+    "deductible": true
+  },
+  {
+    "desc": "TARGET        00017640",
+    "amt": -28.99,
+    "bal": 1366.58,
+    "date": "2018-09-18 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "FLORES MEXICAN RESTAUR",
+    "amt": -18.0,
+    "bal": 1395.57,
+    "date": "2018-09-17 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "LIBERTY MUTUAL",
+    "amt": -200.0,
+    "bal": 1413.57,
+    "date": "2018-09-17 04:02:56 UTC",
+    "deductible": true
+  },
+  {
+    "desc": "WHATABURGER 564    Q26",
+    "amt": -6.43,
+    "bal": 1613.57,
+    "date": "2018-09-16 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "EATZI'S MARKET &amp; BAKERY",
+    "amt": -11.9,
+    "bal": 1620.0,
+    "date": "2018-09-15 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "RENT CHECK",
+    "amt": 900.0,
+    "bal": 1631.9,
+    "date": "2018-09-15 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "HAYS CITY STORE",
+    "amt": -75.06,
+    "bal": 731.9000000000001,
+    "date": "2018-09-14 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "UBER",
+    "amt": 512.26,
+    "bal": 806.96,
+    "date": "2018-09-13 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "CHEVRON 2566",
+    "amt": -151.09,
+    "bal": 294.70000000000005,
+    "date": "2018-09-13 04:02:56 UTC",
+    "deductible": true
+  },
+  {
+    "desc": "LOVERS EGG ROLL PLANO",
+    "amt": -9.93,
+    "bal": 445.7900000000001,
+    "date": "2018-09-13 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "KROGER 0540",
+    "amt": -21.44,
+    "bal": 455.7200000000001,
+    "date": "2018-09-12 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "HEB  #611",
+    "amt": -15.4,
+    "bal": 477.1600000000001,
+    "date": "2018-09-11 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "JACK IN THE BOX 3836",
+    "amt": -5.83,
+    "bal": 492.56000000000006,
+    "date": "2018-09-10 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "JACK IN THE BOX 3836",
+    "amt": -5.83,
+    "bal": 498.39000000000004,
+    "date": "2018-09-09 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "JACK IN THE BOX 3836",
+    "amt": -7.45,
+    "bal": 504.22,
+    "date": "2018-09-08 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "LEVELUP*STEAKNSHAKE832",
+    "amt": -0.97,
+    "bal": 511.67,
+    "date": "2018-09-07 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "JACK IN THE BOX 3836",
+    "amt": -3.02,
+    "bal": 512.64,
+    "date": "2018-09-06 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "HEB  #611",
+    "amt": -49.27,
+    "bal": 515.66,
+    "date": "2018-09-05 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "UBER",
+    "amt": 350.51,
+    "bal": 564.93,
+    "date": "2018-09-04 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "CHEVRON 387",
+    "amt": -247.62,
+    "bal": 214.41999999999996,
+    "date": "2018-09-04 04:02:56 UTC",
+    "deductible": true
+  },
+  {
+    "desc": "WHATABURGER 999",
+    "amt": -7.11,
+    "bal": 462.03999999999996,
+    "date": "2018-09-04 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "JACK IN THE BOX 3836",
+    "amt": -6.37,
+    "bal": 469.15,
+    "date": "2018-09-03 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "EATZI'S MARKET &amp; BAKERY",
+    "amt": -16.23,
+    "bal": 475.52,
+    "date": "2018-09-02 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "JACK IN THE BOX 3836",
+    "amt": -5.61,
+    "bal": 491.75,
+    "date": "2018-09-01 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "TARGET        00017640",
+    "amt": -28.99,
+    "bal": 497.36,
+    "date": "2018-08-31 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "PAPA JOHN'S #1066",
+    "amt": -16.23,
+    "bal": 526.35,
+    "date": "2018-08-30 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "H-E-B #611",
+    "amt": -29.77,
+    "bal": 542.58,
+    "date": "2018-08-29 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "DFW AIRPORT PARKING",
+    "amt": -2.0,
+    "bal": 572.35,
+    "date": "2018-08-28 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "HEB  #611",
+    "amt": -15.4,
+    "bal": 574.35,
+    "date": "2018-08-27 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "UBER",
+    "amt": 437.62,
+    "bal": 589.75,
+    "date": "2018-08-26 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "TEXACO 3364",
+    "amt": -169.04,
+    "bal": 152.13,
+    "date": "2018-08-26 04:02:56 UTC",
+    "deductible": true
+  },
+  {
+    "desc": "PAPA JOHN'S #1066",
+    "amt": -10.83,
+    "bal": 321.16999999999996,
+    "date": "2018-08-26 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "AIRBNB * HM3XZAH3HT",
+    "amt": -45.16,
+    "bal": 331.99999999999994,
+    "date": "2018-08-25 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "MURPHY6548ATWALMART",
+    "amt": -58.75,
+    "bal": 377.15999999999997,
+    "date": "2018-08-24 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "PAPA JOHN'S #1066",
+    "amt": -15.95,
+    "bal": 435.90999999999997,
+    "date": "2018-08-23 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "PAPA JOHN'S #1066",
+    "amt": -8.65,
+    "bal": 451.85999999999996,
+    "date": "2018-08-22 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "FLORES MEXICAN RESTAUR",
+    "amt": -18.0,
+    "bal": 460.50999999999993,
+    "date": "2018-08-21 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "WHATABURGER 999",
+    "amt": -7.11,
+    "bal": 478.50999999999993,
+    "date": "2018-08-20 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "DESSERT INN AUTO",
+    "amt": -154.1,
+    "bal": 485.61999999999995,
+    "date": "2018-08-20 04:02:56 UTC",
+    "deductible": true
+  },
+  {
+    "desc": "HAYS CITY STORE",
+    "amt": -75.06,
+    "bal": 639.7199999999999,
+    "date": "2018-08-19 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "GATOR STOP 3",
+    "amt": -41.42,
+    "bal": 714.78,
+    "date": "2018-08-18 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "UBER",
+    "amt": 465.37,
+    "bal": 756.1999999999999,
+    "date": "2018-08-17 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "EXXONMOBIL 8774",
+    "amt": -170.66,
+    "bal": 290.8299999999999,
+    "date": "2018-08-17 04:02:56 UTC",
+    "deductible": true
+  },
+  {
+    "desc": "DNH*GODADDY.COM",
+    "amt": -13.16,
+    "bal": 461.4899999999999,
+    "date": "2018-08-17 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "LEVELUP*STEAKNSHAKE832",
+    "amt": -0.97,
+    "bal": 474.6499999999999,
+    "date": "2018-08-16 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "LIBERTY MUTUAL",
+    "amt": -200.0,
+    "bal": 475.61999999999995,
+    "date": "2018-08-16 04:02:56 UTC",
+    "deductible": true
+  },
+  {
+    "desc": "TARGET        00017640",
+    "amt": -19.66,
+    "bal": 675.6199999999999,
+    "date": "2018-08-15 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "HEB  #611",
+    "amt": -15.4,
+    "bal": 695.2799999999999,
+    "date": "2018-08-14 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "DFW AIRPORT PARKING",
+    "amt": -2.0,
+    "bal": 710.6799999999998,
+    "date": "2018-08-13 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "STORE 2068",
+    "amt": -22.79,
+    "bal": 712.6799999999998,
+    "date": "2018-08-12 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "RENT CHECK",
+    "amt": 900.0,
+    "bal": 735.4699999999998,
+    "date": "2018-08-12 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "GATOR STOP 3",
+    "amt": -41.42,
+    "bal": -164.5300000000002,
+    "date": "2018-08-11 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "KROGER 0540",
+    "amt": -21.44,
+    "bal": -123.1100000000002,
+    "date": "2018-08-10 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "ALON 7-ELEVEN 4053",
+    "amt": -11.29,
+    "bal": -101.6700000000002,
+    "date": "2018-08-09 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "UBER",
+    "amt": 373.28,
+    "bal": -90.3800000000002,
+    "date": "2018-08-08 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "CHEVRON 3156",
+    "amt": -190.77,
+    "bal": -463.6600000000002,
+    "date": "2018-08-08 04:02:56 UTC",
+    "deductible": true
+  },
+  {
+    "desc": "TARGET        00017640",
+    "amt": -50.2,
+    "bal": -272.8900000000002,
+    "date": "2018-08-08 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "KROGER 0540",
+    "amt": -16.76,
+    "bal": -222.69000000000023,
+    "date": "2018-08-07 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "JACK IN THE BOX 3836",
+    "amt": -7.45,
+    "bal": -205.93000000000023,
+    "date": "2018-08-06 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "JACK IN THE BOX 3836",
+    "amt": -4.32,
+    "bal": -198.48000000000025,
+    "date": "2018-08-05 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "AIRBNB * HMMAEQNHJ3",
+    "amt": -349.99,
+    "bal": -194.16000000000025,
+    "date": "2018-08-04 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "JACK IN THE BOX 3836",
+    "amt": -5.19,
+    "bal": 155.82999999999976,
+    "date": "2018-08-03 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "AIRBNB * HMMAEQNHJ3",
+    "amt": -349.99,
+    "bal": 161.01999999999975,
+    "date": "2018-08-02 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "JACK IN THE BOX 3836",
+    "amt": -7.45,
+    "bal": 511.00999999999976,
+    "date": "2018-08-01 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "TARGET        00017640",
+    "amt": -50.2,
+    "bal": 518.4599999999998,
+    "date": "2018-07-31 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "UBER",
+    "amt": 458.65,
+    "bal": 568.6599999999999,
+    "date": "2018-07-30 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "PILOT 7032",
+    "amt": -155.97,
+    "bal": 110.00999999999988,
+    "date": "2018-07-30 04:02:56 UTC",
+    "deductible": true
+  },
+  {
+    "desc": "7-ELEVEN 23989",
+    "amt": -29.95,
+    "bal": 265.9799999999999,
+    "date": "2018-07-30 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "EATZI'S MARKET &amp; BAKERY",
+    "amt": -18.32,
+    "bal": 295.9299999999999,
+    "date": "2018-07-29 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "EATZI'S MARKET &amp; BAKERY",
+    "amt": -16.23,
+    "bal": 314.2499999999999,
+    "date": "2018-07-28 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "EATZI'S MARKET &amp; BAKERY",
+    "amt": -18.32,
+    "bal": 330.4799999999999,
+    "date": "2018-07-27 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "EATZI'S MARKET &amp; BAKERY",
+    "amt": -16.23,
+    "bal": 348.7999999999999,
+    "date": "2018-07-26 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "TARGET        00017640",
+    "amt": -50.2,
+    "bal": 365.0299999999999,
+    "date": "2018-07-25 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "JACK IN THE BOX 3836",
+    "amt": -3.02,
+    "bal": 415.2299999999999,
+    "date": "2018-07-24 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "EATZI'S MARKET &amp; BAKERY",
+    "amt": -18.32,
+    "bal": 418.2499999999999,
+    "date": "2018-07-23 04:02:56 UTC",
+    "deductible": false
+  },
+  {
+    "desc": "EINSTEIN BROS BAGELS2745",
+    "amt": -6.59,
+    "bal": 436.5699999999999,
+    "date": "2018-07-22 04:02:56 UTC",
+    "deductible": false
+  }
+]

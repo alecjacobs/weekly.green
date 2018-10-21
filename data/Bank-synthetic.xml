@@ -1,0 +1,882 @@
+<site>
+  <bankAccount nickName="Interest Checking-2345" acctType="checking" accountClassification="personal">
+    <accountName>Dag Checking Account</accountName>
+    <fullAccountNumber>123445682345</fullAccountNumber>
+    <accountNumber>2345</accountNumber>
+    <routingNumber>xxxxxxxxx</routingNumber>
+    <accountHolder>Robin</accountHolder>
+    <balance balType="availableBalance">
+      <curAmt curCode="USD">1500.00</curAmt>
+    </balance>
+    <balance balType="currentBalance">
+      <curAmt curCode="USD">1600.00</curAmt>
+    </balance>
+    <balance balType="overdraftProtection">
+      <curAmt curCode="USD">15750.00</curAmt>
+    </balance>
+    <asOf localFormat="yyyy-MM-dd">2018-10-20T00:00:00</asOf>
+    <interestRate>0.01000</interestRate>
+    <accountProfile>
+      <address>
+        <addressType>HOME</addressType>
+        <address>
+          <address1>Address1</address1>
+          <address2>Address2</address2>
+          <address3>Address3</address3>
+          <city>Redwood City</city>
+          <state>CA</state>
+          <country>America</country>
+          <zip>94065</zip>
+        </address>
+      </address>
+      <fax>AccountFax1</fax>
+      <company>Companyname</company>
+      <phone>12345678</phone>
+      <homePhone>12345678</homePhone>
+      <workPhone>12345678</workPhone>
+      <mobilePhone>12345678</mobilePhone>
+      <email>email@gmail.com</email>
+      <secondaryEmail>SecondaryEmail1@gmail.com</secondaryEmail>
+      <personalEmail>PersonalEmail1@gmail.com</personalEmail>
+      <othersEmail>OthersEmail1@gmail.com</othersEmail>
+      <workEmail>workEmail1@gmail.com</workEmail>
+      <primaryEmail>PrimaryEmail1@gmail.com</primaryEmail>
+      <company>AccountCompany1</company>
+      <birthDateTime localFormat="MM/DD/YYYY">2078-04-25T00:00:00</birthDateTime>
+      <consumerIdentifier consumerIdentifierType="AADHAR">7576565567</consumerIdentifier>
+      <consumerIdentifier1 consumerIdentifierType="NRIC">454765876876</consumerIdentifier1>
+    </accountProfile>
+    <individualInformation accountHolderType="Primary">
+      <name>
+        <lastName>Andrews</lastName>
+        <middleName>George</middleName>
+        <firstName>Robin</firstName>
+      </name>
+      <fullName>Robin George Andrews</fullName>
+      <birthDateTime localFormat="MM/DD/YYYY">2012-01-01T00:00:00</birthDateTime>
+      <consumerIdentifier consumerIdentifierType="AADHAR">4575476vhg</consumerIdentifier>
+      <consumerIdentifier1 consumerIdentifierType="NRIC">64576587687</consumerIdentifier1>
+    </individualInformation>
+    <transactionList>
+      <transaction baseType="credit" transactionStatus="posted" type="deposit">
+        <description>UBER</description>
+        <transDate localFormat="yyyy-MM-dd">2018-10-19T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-10-19T00:00:00</postDate>
+        <amount curCode="USD">476.79</amount>
+        <transactionRunningBalance curCode="USD">1500</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>CHEVRON 5120</description>
+        <transDate localFormat="yyyy-MM-dd">2018-10-19T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-10-19T00:00:00</postDate>
+        <amount curCode="USD">197.61</amount>
+        <transactionRunningBalance curCode="USD">1023.21</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>EATZI'S MARKET &amp;amp; BAKERY</description>
+        <transDate localFormat="yyyy-MM-dd">2018-10-19T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-10-19T00:00:00</postDate>
+        <amount curCode="USD">16.64</amount>
+        <transactionRunningBalance curCode="USD">1220.8200000000002</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>JIFFY LUBE</description>
+        <transDate localFormat="yyyy-MM-dd">2018-10-19T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-10-19T00:00:00</postDate>
+        <amount curCode="USD">144.95</amount>
+        <transactionRunningBalance curCode="USD">1237.4600000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>LIBERTY MUTUAL</description>
+        <transDate localFormat="yyyy-MM-dd">2018-10-19T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-10-19T00:00:00</postDate>
+        <amount curCode="USD">200.0</amount>
+        <transactionRunningBalance curCode="USD">1382.4100000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="credit" transactionStatus="posted" type="deposit">
+        <description>RENT CHECK</description>
+        <transDate localFormat="yyyy-MM-dd">2018-10-19T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-10-19T00:00:00</postDate>
+        <amount curCode="USD">900.0</amount>
+        <transactionRunningBalance curCode="USD">1582.4100000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>JACK IN THE BOX 3836</description>
+        <transDate localFormat="yyyy-MM-dd">2018-10-18T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-10-18T00:00:00</postDate>
+        <amount curCode="USD">5.19</amount>
+        <transactionRunningBalance curCode="USD">682.4100000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>TARGET        00017640</description>
+        <transDate localFormat="yyyy-MM-dd">2018-10-17T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-10-17T00:00:00</postDate>
+        <amount curCode="USD">28.99</amount>
+        <transactionRunningBalance curCode="USD">687.6000000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>EATZI'S MARKET &amp;amp; BAKERY</description>
+        <transDate localFormat="yyyy-MM-dd">2018-10-16T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-10-16T00:00:00</postDate>
+        <amount curCode="USD">20.31</amount>
+        <transactionRunningBalance curCode="USD">716.5900000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>HEB  #611</description>
+        <transDate localFormat="yyyy-MM-dd">2018-10-15T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-10-15T00:00:00</postDate>
+        <amount curCode="USD">15.4</amount>
+        <transactionRunningBalance curCode="USD">736.9000000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>WAL-MART #2086</description>
+        <transDate localFormat="yyyy-MM-dd">2018-10-14T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-10-14T00:00:00</postDate>
+        <amount curCode="USD">11.12</amount>
+        <transactionRunningBalance curCode="USD">752.3000000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>MURPHY6548ATWALMART</description>
+        <transDate localFormat="yyyy-MM-dd">2018-10-13T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-10-13T00:00:00</postDate>
+        <amount curCode="USD">40.1</amount>
+        <transactionRunningBalance curCode="USD">763.4200000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>KROGER 0540</description>
+        <transDate localFormat="yyyy-MM-dd">2018-10-12T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-10-12T00:00:00</postDate>
+        <amount curCode="USD">16.76</amount>
+        <transactionRunningBalance curCode="USD">803.5200000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>JACK IN THE BOX 3836</description>
+        <transDate localFormat="yyyy-MM-dd">2018-10-11T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-10-11T00:00:00</postDate>
+        <amount curCode="USD">5.61</amount>
+        <transactionRunningBalance curCode="USD">820.2800000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>WHATABURGER 743    Q26</description>
+        <transDate localFormat="yyyy-MM-dd">2018-10-10T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-10-10T00:00:00</postDate>
+        <amount curCode="USD">8.85</amount>
+        <transactionRunningBalance curCode="USD">825.8900000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="credit" transactionStatus="posted" type="deposit">
+        <description>UBER</description>
+        <transDate localFormat="yyyy-MM-dd">2018-10-09T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-10-09T00:00:00</postDate>
+        <amount curCode="USD">411.29</amount>
+        <transactionRunningBalance curCode="USD">834.7400000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>FAMILY DOLLAR #10494</description>
+        <transDate localFormat="yyyy-MM-dd">2018-10-09T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-10-09T00:00:00</postDate>
+        <amount curCode="USD">8.59</amount>
+        <transactionRunningBalance curCode="USD">423.45000000000033</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>SHELL OIL 5694</description>
+        <transDate localFormat="yyyy-MM-dd">2018-10-08T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-10-08T00:00:00</postDate>
+        <amount curCode="USD">225.32</amount>
+        <transactionRunningBalance curCode="USD">432.0400000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>ALON 7-ELEVEN 4053</description>
+        <transDate localFormat="yyyy-MM-dd">2018-10-08T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-10-08T00:00:00</postDate>
+        <amount curCode="USD">11.29</amount>
+        <transactionRunningBalance curCode="USD">657.3600000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>AIRBNB * HMMAEQNHJ3</description>
+        <transDate localFormat="yyyy-MM-dd">2018-10-07T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-10-07T00:00:00</postDate>
+        <amount curCode="USD">349.99</amount>
+        <transactionRunningBalance curCode="USD">668.6500000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>LOVERS EGG ROLL PLANO</description>
+        <transDate localFormat="yyyy-MM-dd">2018-10-06T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-10-06T00:00:00</postDate>
+        <amount curCode="USD">9.93</amount>
+        <transactionRunningBalance curCode="USD">1018.6400000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>TARGET        00017640</description>
+        <transDate localFormat="yyyy-MM-dd">2018-10-05T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-10-05T00:00:00</postDate>
+        <amount curCode="USD">17.65</amount>
+        <transactionRunningBalance curCode="USD">1028.5700000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>DFW AIRPORT PARKING</description>
+        <transDate localFormat="yyyy-MM-dd">2018-10-04T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-10-04T00:00:00</postDate>
+        <amount curCode="USD">2.0</amount>
+        <transactionRunningBalance curCode="USD">1046.2200000000005</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>DFW AIRPORT PARKING</description>
+        <transDate localFormat="yyyy-MM-dd">2018-10-03T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-10-03T00:00:00</postDate>
+        <amount curCode="USD">2.0</amount>
+        <transactionRunningBalance curCode="USD">1048.2200000000005</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>PAPA JOHN'S #1066</description>
+        <transDate localFormat="yyyy-MM-dd">2018-10-02T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-10-02T00:00:00</postDate>
+        <amount curCode="USD">10.83</amount>
+        <transactionRunningBalance curCode="USD">1050.2200000000005</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>TARGET        00017640</description>
+        <transDate localFormat="yyyy-MM-dd">2018-10-01T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-10-01T00:00:00</postDate>
+        <amount curCode="USD">17.65</amount>
+        <transactionRunningBalance curCode="USD">1061.0500000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>KROGER 0540</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-30T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-30T00:00:00</postDate>
+        <amount curCode="USD">21.44</amount>
+        <transactionRunningBalance curCode="USD">1078.7000000000005</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="credit" transactionStatus="posted" type="deposit">
+        <description>UBER</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-29T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-29T00:00:00</postDate>
+        <amount curCode="USD">433.42</amount>
+        <transactionRunningBalance curCode="USD">1100.1400000000006</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>JACK IN THE BOX 3836</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-29T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-29T00:00:00</postDate>
+        <amount curCode="USD">3.24</amount>
+        <transactionRunningBalance curCode="USD">666.7200000000005</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>CULWELL GROOMING ROOM</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-28T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-28T00:00:00</postDate>
+        <amount curCode="USD">33.0</amount>
+        <transactionRunningBalance curCode="USD">669.9600000000005</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>TEXACO 6572</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-27T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-27T00:00:00</postDate>
+        <amount curCode="USD">237.16</amount>
+        <transactionRunningBalance curCode="USD">702.9600000000005</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>WHOLE PETS MARKET  SSS</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-27T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-27T00:00:00</postDate>
+        <amount curCode="USD">20.54</amount>
+        <transactionRunningBalance curCode="USD">940.1200000000005</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>EATZI'S MARKET &amp;amp; BAKERY</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-26T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-26T00:00:00</postDate>
+        <amount curCode="USD">16.64</amount>
+        <transactionRunningBalance curCode="USD">960.6600000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>LEVELUP*STEAKNSHAKE832</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-25T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-25T00:00:00</postDate>
+        <amount curCode="USD">0.97</amount>
+        <transactionRunningBalance curCode="USD">977.3000000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>TARGET        00017640</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-24T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-24T00:00:00</postDate>
+        <amount curCode="USD">17.65</amount>
+        <transactionRunningBalance curCode="USD">978.2700000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>TARGET        00017640</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-23T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-23T00:00:00</postDate>
+        <amount curCode="USD">17.65</amount>
+        <transactionRunningBalance curCode="USD">995.9200000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>JACK IN THE BOX 3836</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-22T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-22T00:00:00</postDate>
+        <amount curCode="USD">5.83</amount>
+        <transactionRunningBalance curCode="USD">1013.5700000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>KROGER 0540</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-21T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-21T00:00:00</postDate>
+        <amount curCode="USD">16.76</amount>
+        <transactionRunningBalance curCode="USD">1019.4000000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>AIRBNB * HMMAEQNHJ3</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-20T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-20T00:00:00</postDate>
+        <amount curCode="USD">349.99</amount>
+        <transactionRunningBalance curCode="USD">1036.1600000000005</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="credit" transactionStatus="posted" type="deposit">
+        <description>UBER</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-19T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-19T00:00:00</postDate>
+        <amount curCode="USD">418.68</amount>
+        <transactionRunningBalance curCode="USD">1386.1500000000005</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>GITHUB.COM</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-19T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-19T00:00:00</postDate>
+        <amount curCode="USD">7.0</amount>
+        <transactionRunningBalance curCode="USD">967.4700000000005</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>CORNER STORE 0723</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-18T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-18T00:00:00</postDate>
+        <amount curCode="USD">42.7</amount>
+        <transactionRunningBalance curCode="USD">974.4700000000005</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>JACK IN THE BOX 3836</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-17T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-17T00:00:00</postDate>
+        <amount curCode="USD">3.02</amount>
+        <transactionRunningBalance curCode="USD">1017.1700000000005</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>BUSY BUGGY AUTO REPAIR</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-17T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-17T00:00:00</postDate>
+        <amount curCode="USD">237.39</amount>
+        <transactionRunningBalance curCode="USD">1020.1900000000005</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>EXXONMOBIL 7977</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-16T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-16T00:00:00</postDate>
+        <amount curCode="USD">129.82</amount>
+        <transactionRunningBalance curCode="USD">1257.5800000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>JACK IN THE BOX 3836</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-16T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-16T00:00:00</postDate>
+        <amount curCode="USD">3.24</amount>
+        <transactionRunningBalance curCode="USD">1387.4000000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="credit" transactionStatus="posted" type="deposit">
+        <description>RENT CHECK</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-16T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-16T00:00:00</postDate>
+        <amount curCode="USD">900.0</amount>
+        <transactionRunningBalance curCode="USD">1390.6400000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>CORNER STORE 0723</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-15T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-15T00:00:00</postDate>
+        <amount curCode="USD">42.7</amount>
+        <transactionRunningBalance curCode="USD">490.6400000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>JACK IN THE BOX 3836</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-14T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-14T00:00:00</postDate>
+        <amount curCode="USD">5.73</amount>
+        <transactionRunningBalance curCode="USD">533.3400000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>JACK IN THE BOX 3836</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-13T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-13T00:00:00</postDate>
+        <amount curCode="USD">7.56</amount>
+        <transactionRunningBalance curCode="USD">539.0700000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>PAPA JOHN'S #1066</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-12T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-12T00:00:00</postDate>
+        <amount curCode="USD">10.83</amount>
+        <transactionRunningBalance curCode="USD">546.6300000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>AIRBNB * HMMAEQNHJ3</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-11T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-11T00:00:00</postDate>
+        <amount curCode="USD">349.99</amount>
+        <transactionRunningBalance curCode="USD">557.4600000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>LEVELUP*STEAKNSHAKE832</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-10T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-10T00:00:00</postDate>
+        <amount curCode="USD">0.97</amount>
+        <transactionRunningBalance curCode="USD">907.4500000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>LIBERTY MUTUAL</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-10T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-10T00:00:00</postDate>
+        <amount curCode="USD">200.0</amount>
+        <transactionRunningBalance curCode="USD">908.4200000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="credit" transactionStatus="posted" type="deposit">
+        <description>UBER</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-09T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-09T00:00:00</postDate>
+        <amount curCode="USD">354.45</amount>
+        <transactionRunningBalance curCode="USD">1108.4200000000005</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>GATOR STOP 3</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-09T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-09T00:00:00</postDate>
+        <amount curCode="USD">41.42</amount>
+        <transactionRunningBalance curCode="USD">753.9700000000005</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>WHATABURGER 564    Q26</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-08T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-08T00:00:00</postDate>
+        <amount curCode="USD">6.43</amount>
+        <transactionRunningBalance curCode="USD">795.3900000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>JACK IN THE BOX 3836</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-07T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-07T00:00:00</postDate>
+        <amount curCode="USD">3.02</amount>
+        <transactionRunningBalance curCode="USD">801.8200000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>HEB  #611</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-06T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-06T00:00:00</postDate>
+        <amount curCode="USD">49.27</amount>
+        <transactionRunningBalance curCode="USD">804.8400000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>PILOT 6712</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-05T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-05T00:00:00</postDate>
+        <amount curCode="USD">59.45</amount>
+        <transactionRunningBalance curCode="USD">854.1100000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>WHOLE PETS MARKET  SSS</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-05T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-05T00:00:00</postDate>
+        <amount curCode="USD">20.54</amount>
+        <transactionRunningBalance curCode="USD">913.5600000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>JACK IN THE BOX 3836</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-04T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-04T00:00:00</postDate>
+        <amount curCode="USD">3.02</amount>
+        <transactionRunningBalance curCode="USD">934.1000000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>FAMILY DOLLAR #10494</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-03T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-03T00:00:00</postDate>
+        <amount curCode="USD">8.59</amount>
+        <transactionRunningBalance curCode="USD">937.1200000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>WHATABURGER 564    Q26</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-02T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-02T00:00:00</postDate>
+        <amount curCode="USD">6.43</amount>
+        <transactionRunningBalance curCode="USD">945.7100000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>JACK IN THE BOX 3836</description>
+        <transDate localFormat="yyyy-MM-dd">2018-09-01T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-09-01T00:00:00</postDate>
+        <amount curCode="USD">5.73</amount>
+        <transactionRunningBalance curCode="USD">952.1400000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>AIRBNB * HM3XZAH3HT</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-31T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-31T00:00:00</postDate>
+        <amount curCode="USD">45.16</amount>
+        <transactionRunningBalance curCode="USD">957.8700000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="credit" transactionStatus="posted" type="deposit">
+        <description>UBER</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-30T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-30T00:00:00</postDate>
+        <amount curCode="USD">344.34</amount>
+        <transactionRunningBalance curCode="USD">1003.0300000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>PET SUPPLIES PLUS #700</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-30T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-30T00:00:00</postDate>
+        <amount curCode="USD">18.38</amount>
+        <transactionRunningBalance curCode="USD">658.6900000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>EATZI'S MARKET &amp;amp; BAKERY</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-29T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-29T00:00:00</postDate>
+        <amount curCode="USD">16.23</amount>
+        <transactionRunningBalance curCode="USD">677.0700000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>LOVERS EGG ROLL PLANO</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-28T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-28T00:00:00</postDate>
+        <amount curCode="USD">9.93</amount>
+        <transactionRunningBalance curCode="USD">693.3000000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>TARGET        00017640</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-27T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-27T00:00:00</postDate>
+        <amount curCode="USD">17.65</amount>
+        <transactionRunningBalance curCode="USD">703.2300000000002</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>TARGET        00017640</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-26T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-26T00:00:00</postDate>
+        <amount curCode="USD">28.99</amount>
+        <transactionRunningBalance curCode="USD">720.8800000000002</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>EXXONMOBIL 3785</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-25T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-25T00:00:00</postDate>
+        <amount curCode="USD">190.85</amount>
+        <transactionRunningBalance curCode="USD">749.8700000000002</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>JACK IN THE BOX 3836</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-25T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-25T00:00:00</postDate>
+        <amount curCode="USD">5.73</amount>
+        <transactionRunningBalance curCode="USD">940.7200000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>TOM THUMB #2570</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-24T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-24T00:00:00</postDate>
+        <amount curCode="USD">35.12</amount>
+        <transactionRunningBalance curCode="USD">946.4500000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>PAPA JOHN'S #1066</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-23T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-23T00:00:00</postDate>
+        <amount curCode="USD">15.95</amount>
+        <transactionRunningBalance curCode="USD">981.5700000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>TARGET        00017640</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-22T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-22T00:00:00</postDate>
+        <amount curCode="USD">50.2</amount>
+        <transactionRunningBalance curCode="USD">997.5200000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>7-ELEVEN 23989</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-21T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-21T00:00:00</postDate>
+        <amount curCode="USD">29.95</amount>
+        <transactionRunningBalance curCode="USD">1047.7200000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="credit" transactionStatus="posted" type="deposit">
+        <description>UBER</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-20T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-20T00:00:00</postDate>
+        <amount curCode="USD">493.29</amount>
+        <transactionRunningBalance curCode="USD">1077.6700000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>EATZI'S MARKET &amp;amp; BAKERY</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-20T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-20T00:00:00</postDate>
+        <amount curCode="USD">18.32</amount>
+        <transactionRunningBalance curCode="USD">584.3800000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>PAPA JOHN'S #1066</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-19T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-19T00:00:00</postDate>
+        <amount curCode="USD">15.95</amount>
+        <transactionRunningBalance curCode="USD">602.7000000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>KROGER 0540</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-18T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-18T00:00:00</postDate>
+        <amount curCode="USD">16.76</amount>
+        <transactionRunningBalance curCode="USD">618.6500000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>DNH*GODADDY.COM</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-17T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-17T00:00:00</postDate>
+        <amount curCode="USD">13.16</amount>
+        <transactionRunningBalance curCode="USD">635.4100000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>CORNER STORE 0723</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-16T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-16T00:00:00</postDate>
+        <amount curCode="USD">6.98</amount>
+        <transactionRunningBalance curCode="USD">648.5700000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>JOE'S TIRES</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-16T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-16T00:00:00</postDate>
+        <amount curCode="USD">160.26</amount>
+        <transactionRunningBalance curCode="USD">655.5500000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>EATZI'S MARKET &amp;amp; BAKERY</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-15T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-15T00:00:00</postDate>
+        <amount curCode="USD">11.9</amount>
+        <transactionRunningBalance curCode="USD">815.8100000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>SHELL OIL 4300</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-14T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-14T00:00:00</postDate>
+        <amount curCode="USD">233.19</amount>
+        <transactionRunningBalance curCode="USD">827.7100000000004</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>WAL-MART #2086</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-14T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-14T00:00:00</postDate>
+        <amount curCode="USD">11.12</amount>
+        <transactionRunningBalance curCode="USD">1060.9000000000003</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="credit" transactionStatus="posted" type="deposit">
+        <description>RENT CHECK</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-14T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-14T00:00:00</postDate>
+        <amount curCode="USD">900.0</amount>
+        <transactionRunningBalance curCode="USD">1072.0200000000002</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>JACK IN THE BOX 3836</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-13T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-13T00:00:00</postDate>
+        <amount curCode="USD">5.19</amount>
+        <transactionRunningBalance curCode="USD">172.0200000000002</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>MURPHY6548ATWALMART</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-12T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-12T00:00:00</postDate>
+        <amount curCode="USD">58.75</amount>
+        <transactionRunningBalance curCode="USD">177.2100000000002</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>TARGET        00017640</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-11T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-11T00:00:00</postDate>
+        <amount curCode="USD">19.66</amount>
+        <transactionRunningBalance curCode="USD">235.9600000000002</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="credit" transactionStatus="posted" type="deposit">
+        <description>UBER</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-10T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-10T00:00:00</postDate>
+        <amount curCode="USD">353.79</amount>
+        <transactionRunningBalance curCode="USD">255.6200000000002</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>FAMILY DOLLAR #10494</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-10T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-10T00:00:00</postDate>
+        <amount curCode="USD">8.59</amount>
+        <transactionRunningBalance curCode="USD">-98.16999999999982</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>EATZI'S MARKET &amp;amp; BAKERY</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-09T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-09T00:00:00</postDate>
+        <amount curCode="USD">16.64</amount>
+        <transactionRunningBalance curCode="USD">-89.57999999999981</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>TOM THUMB #2570</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-08T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-08T00:00:00</postDate>
+        <amount curCode="USD">35.12</amount>
+        <transactionRunningBalance curCode="USD">-72.93999999999981</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>DFW AIRPORT PARKING</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-07T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-07T00:00:00</postDate>
+        <amount curCode="USD">2.0</amount>
+        <transactionRunningBalance curCode="USD">-37.819999999999816</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>PAPA JOHN'S #1066</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-06T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-06T00:00:00</postDate>
+        <amount curCode="USD">15.95</amount>
+        <transactionRunningBalance curCode="USD">-35.819999999999816</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>PAPA JOHN'S #1066</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-05T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-05T00:00:00</postDate>
+        <amount curCode="USD">8.65</amount>
+        <transactionRunningBalance curCode="USD">-19.869999999999816</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>AIRBNB * HMMAEQNHJ3</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-04T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-04T00:00:00</postDate>
+        <amount curCode="USD">349.99</amount>
+        <transactionRunningBalance curCode="USD">-11.219999999999816</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>TEXACO 9974</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-03T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-03T00:00:00</postDate>
+        <amount curCode="USD">116.69</amount>
+        <transactionRunningBalance curCode="USD">338.7700000000002</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>DNH*GODADDY.COM</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-03T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-03T00:00:00</postDate>
+        <amount curCode="USD">13.16</amount>
+        <transactionRunningBalance curCode="USD">455.4600000000002</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>TARGET        00017640</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-02T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-02T00:00:00</postDate>
+        <amount curCode="USD">19.66</amount>
+        <transactionRunningBalance curCode="USD">468.62000000000023</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>LIBERTY MUTUAL</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-02T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-02T00:00:00</postDate>
+        <amount curCode="USD">200.0</amount>
+        <transactionRunningBalance curCode="USD">488.28000000000026</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>TARGET        00017640</description>
+        <transDate localFormat="yyyy-MM-dd">2018-08-01T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-08-01T00:00:00</postDate>
+        <amount curCode="USD">17.65</amount>
+        <transactionRunningBalance curCode="USD">688.2800000000002</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="credit" transactionStatus="posted" type="deposit">
+        <description>UBER</description>
+        <transDate localFormat="yyyy-MM-dd">2018-07-31T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-07-31T00:00:00</postDate>
+        <amount curCode="USD">422.72</amount>
+        <transactionRunningBalance curCode="USD">705.9300000000002</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>JACK IN THE BOX 3836</description>
+        <transDate localFormat="yyyy-MM-dd">2018-07-31T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-07-31T00:00:00</postDate>
+        <amount curCode="USD">7.56</amount>
+        <transactionRunningBalance curCode="USD">283.21000000000015</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>JACK IN THE BOX 3836</description>
+        <transDate localFormat="yyyy-MM-dd">2018-07-30T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-07-30T00:00:00</postDate>
+        <amount curCode="USD">5.19</amount>
+        <transactionRunningBalance curCode="USD">290.77000000000015</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>EATZI'S MARKET &amp;amp; BAKERY</description>
+        <transDate localFormat="yyyy-MM-dd">2018-07-29T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-07-29T00:00:00</postDate>
+        <amount curCode="USD">18.15</amount>
+        <transactionRunningBalance curCode="USD">295.96000000000015</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>LEVELUP*STEAKNSHAKE296</description>
+        <transDate localFormat="yyyy-MM-dd">2018-07-28T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-07-28T00:00:00</postDate>
+        <amount curCode="USD">6.58</amount>
+        <transactionRunningBalance curCode="USD">314.1100000000001</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>HEB  #611</description>
+        <transDate localFormat="yyyy-MM-dd">2018-07-27T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-07-27T00:00:00</postDate>
+        <amount curCode="USD">5.3</amount>
+        <transactionRunningBalance curCode="USD">320.6900000000001</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>EATZI'S MARKET &amp;amp; BAKERY</description>
+        <transDate localFormat="yyyy-MM-dd">2018-07-26T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-07-26T00:00:00</postDate>
+        <amount curCode="USD">16.23</amount>
+        <transactionRunningBalance curCode="USD">325.9900000000001</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>7-ELEVEN 23989</description>
+        <transDate localFormat="yyyy-MM-dd">2018-07-25T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-07-25T00:00:00</postDate>
+        <amount curCode="USD">29.95</amount>
+        <transactionRunningBalance curCode="USD">342.22000000000014</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>WHATABURGER 999</description>
+        <transDate localFormat="yyyy-MM-dd">2018-07-24T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-07-24T00:00:00</postDate>
+        <amount curCode="USD">7.11</amount>
+        <transactionRunningBalance curCode="USD">372.17000000000013</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>TEXACO 5552</description>
+        <transDate localFormat="yyyy-MM-dd">2018-07-23T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-07-23T00:00:00</postDate>
+        <amount curCode="USD">119.56</amount>
+        <transactionRunningBalance curCode="USD">379.28000000000014</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>JACK IN THE BOX 3836</description>
+        <transDate localFormat="yyyy-MM-dd">2018-07-23T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-07-23T00:00:00</postDate>
+        <amount curCode="USD">4.32</amount>
+        <transactionRunningBalance curCode="USD">498.84000000000015</transactionRunningBalance>
+      </transaction>
+      <transaction baseType="debit" transactionStatus="posted" type="debit">
+        <description>WAL-MART #3229</description>
+        <transDate localFormat="yyyy-MM-dd">2018-07-22T00:00:00</transDate>
+        <postDate localFormat="yyyy-MM-dd">2018-07-22T00:00:00</postDate>
+        <amount curCode="USD">18.15</amount>
+        <transactionRunningBalance curCode="USD">503.16000000000014</transactionRunningBalance>
+      </transaction>
+    </transactionList>
+  </bankAccount>
+</site>
