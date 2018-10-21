@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   Vue.use(Vuetify, { theme: { primary: '#333' }})
 
+  window.app = window.app || {};
   window.app = new Vue({
     router,
     store,
