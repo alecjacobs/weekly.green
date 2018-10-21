@@ -1,10 +1,17 @@
 /* eslint no-console: 0 */
 
 import Vue from 'vue'
+import Vuex from 'vuex'
+import VueRouter from 'vue-router'
+
 import App from '../app.vue'
 
 document.addEventListener('DOMContentLoaded', () => {
   const el = document.body.appendChild(document.createElement('hello'));
+
+  Vue.use(Vuex)
+  Vue.use(VueRouter)
+
   const app = new Vue({
     el,
     render: h => h(App)
